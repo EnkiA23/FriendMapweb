@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="568" viewBox="0 0 320 568" fill="none">
+  <rect width="320" height="568" fill="#F5F7FA"/>
+  <rect x="24" y="24" width="272" height="520" rx="16" stroke="#0d3b66" stroke-width="2" fill="none"/>
+  <text x="160" y="280" text-anchor="middle" fill="#4a5568" font-family="system-ui,sans-serif" font-size="14">Screenshot placeholder</text>
+  <text x="160" y="300" text-anchor="middle" fill="#4a5568" font-family="system-ui,sans-serif" font-size="12">Replace with hero.png, map-view.png, etc.</text>
+</svg>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FriendMap – Stay connected with friends on the map</title>
+  <meta name="description" content="FriendMap lets you share your location with friends in real time, drive in convoys, plan events, and discover places together.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a href="index.html" class="site-logo"><img src="images/icon.png" alt="">FriendMap</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="copyright.html">Copyright</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>FriendMap</h1>
+      <p class="tagline">Stay connected with friends on the map – share location, drive in convoys, and plan events together.</p>
+      <div class="hero-gallery" aria-label="FriendMap app screens">
+        <div class="hero-gallery-card">
+          <span class="hero-gallery-badge">✨ Tap to open</span>
+          <div class="hero-gallery-preview">
+            <button type="button" class="hero-gallery-arrow hero-gallery-prev" aria-label="Previous">‹</button>
+            <button type="button" class="hero-gallery-main" id="hero-gallery-main-btn" aria-label="View full size">
+              <img id="hero-gallery-img" src="images/1.jpg" alt="FriendMap app" />
+            </button>
+            <button type="button" class="hero-gallery-arrow hero-gallery-next" aria-label="Next">›</button>
+          </div>
+          <div class="hero-gallery-thumbs" id="hero-gallery-thumbs"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox: opens when user clicks a picture -->
+  <div id="hero-lightbox" class="hero-lightbox" aria-hidden="true" role="dialog" aria-label="View screenshot">
+    <div class="hero-lightbox-backdrop"></div>
+    <button type="button" class="hero-lightbox-close" aria-label="Close">×</button>
+    <button type="button" class="hero-lightbox-arrow hero-lightbox-prev" aria-label="Previous">‹</button>
+    <div class="hero-lightbox-content">
+      <img id="hero-lightbox-img" src="" alt="FriendMap app screenshot" />
+    </div>
+    <button type="button" class="hero-lightbox-arrow hero-lightbox-next" aria-label="Next">›</button>
+    <span class="hero-lightbox-counter"><span id="hero-lightbox-current">1</span> / 13</span>
+  </div>
+
+  <main>
+    <section id="how-it-works">
+      <h2>How it works</h2>
+      <p class="section-intro">Get started in a few steps: add friends, choose who can see your location, and start sharing.</p>
+      <div class="steps">
+        <div class="step-card">
+          <span class="num">1</span>
+          <h3>Add friends</h3>
+          <p>Invite people you trust. FriendMap uses your phone number so you connect with real contacts.</p>
+        </div>
+        <div class="step-card">
+          <span class="num">2</span>
+          <h3>Share your location</h3>
+          <p>Turn on location sharing when you want. You decide who sees you and when.</p>
+        </div>
+        <div class="step-card">
+          <span class="num">3</span>
+          <h3>See friends on the map</h3>
+          <p>View friends’ locations in real time on the map and get directions to meet up.</p>
+        </div>
+        <div class="step-card">
+          <span class="num">4</span>
+          <h3>Convoys & events</h3>
+          <p>Drive together in convoys with turn-by-turn, or create events and invite friends to join.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <h2>Features</h2>
+      <p class="section-intro">Real-time location sharing, convoys, events, AR tagging, and built-in safety – all in one app.</p>
+      <div class="features">
+        <div class="feature-card">
+          <h3>Real-time location sharing</h3>
+          <p>Share your location with selected friends. See each other on the map and navigate to meet.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Convoy mode</h3>
+          <p>Drive in a group with live positions and optional push-to-talk so everyone stays in sync.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Events</h3>
+          <p>Create events, set a place and time, invite friends, and track who’s on the way.</p>
+        </div>
+        <div class="feature-card">
+          <h3>AR tagging</h3>
+          <p>Drop AR tags in the real world for friends to find – great for meet-up spots and discoveries.</p>
+        </div>
+        <div class="feature-card">
+          <h3>SOS & emergency</h3>
+          <p>One-tap SOS: in-app alarm, call 911, call your trusted contact, or send your live location by SMS. Minors use parent as trusted contact.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Age verification & safety for teens</h3>
+          <p>Users 15 and under need parent or guardian verification (including ID) before using the app. We keep teens safe without blocking the experience.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="copyright.html">Copyright</a>
+      </nav>
+      <p class="copy">© FriendMap. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
